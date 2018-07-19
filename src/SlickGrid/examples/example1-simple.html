@@ -64,9 +64,9 @@
             };
         }
         var gridDataView = new Slick.Data.DataView();
-        grid = new Slick.Grid("#myGrid", gridDataView, columns, options);
-        gridDataView.setItems(data, 'title');
-        grid.render();
+        grid = new Slick.Grid("#myGrid", data, columns, options);
+//        gridDataView.setItems(data, 'title');
+//        grid.render();
     })
 </script>
 </body>

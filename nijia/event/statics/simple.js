@@ -27,7 +27,8 @@ shoeMark.listen(function () {
 
 
 document.getElementById('submit').onclick = function () {
-    shoeMark.trigger('褐色', '41');
+    shoeMark.trigger('red', '41');
+    shoeMark.trigger('black', '41');
     // document.getElementsByClassName('screen').innerHTML = JSON.stringify(shoeMark.sell);
     document.getElementById('screen').innerHTML = JSON.stringify(shoeMark.sell);
 };

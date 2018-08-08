@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'/>
+    <link href='../statics/styles/fullcalendar.css' rel='stylesheet'/>
+    <link href='../statics/styles/fullcalendar.print.css' rel='stylesheet' media='print'/>
+    <script src='../lib/moment.min.js'></script>
+    <script src='../lib/jquery.min.js'></script>
+    <script src='../lib/fullcalendar.js'></script>
+    <script src="../lib/common.utils.js"></script>
+    <script src="../lib/common.base64.js"></script>
+    <script src="../statics/js/custom.js"></script>
+    <style>
+        body {
+            margin: 40px 10px;
+            padding: 0;
+            font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 14px;
+        }
+
+        #event-detail, #calendar {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+<div id="event-detail">
+    <p>click on event to see details and update new dates.</p>
+    <p>Event ID: <span id="eventId"></span>
+
+    </p>
+    <p>Start Date:
+        <input id="startDt" type="text" value="" size="50"/>
+    </p>
+    <p>End Date:
+        <input id="endDt" type="text" value="" size="50"/>
+    </p>
+    <p>Title:
+        <input id="title" type="text" value="" size="100"/>
+    </p>
+    <p>
+        <button id="btnSave" name="save">Save</button>
+        <button type="reset" id="btnReset">Reset</button>
+        <button type="button" id="btnDel">Delete</button>
+    <div><a id="backup" download="calendarData.json">backup</a></div>
+    </p>
+</div>
+<div id='calendar'></div>
+
+</body>
+</html>

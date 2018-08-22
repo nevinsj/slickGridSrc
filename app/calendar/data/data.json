@@ -136,5 +136,53 @@
     "start": "2018-08-15T15:00:00",
     "end": "2018-08-15T16:00:00",
     "title": "http://mvnrepository.com/  maven respository"
+  },
+  {
+    "id": "2018-08-21 13:27:29",
+    "start": "2018-08-21T09:00:00",
+    "end": "2018-08-21T10:00:00",
+    "title": "fail to  clear git  history commit message with a new branch  due to https://segmentfault.com/q/1010000004996998"
+  },
+  {
+    "id": "2018-08-21 13:32:02",
+    "start": "2018-08-21T11:00:00",
+    "end": "2018-08-21T12:00:00",
+    "title": "git rebase aims to combine multiple local commit message before push to remote respository"
+  },
+  {
+    "id": "2018-08-21 13:28:36",
+    "start": "2018-08-21T10:00:00",
+    "end": "2018-08-21T11:00:00",
+    "title": "try to use git rebase -i [start commit id ] [end commit id],but with no result \"nothing to do\".Maybe git find no file modified"
+  },
+  {
+    "id": "2018-08-21 15:07:03",
+    "start": "2018-08-21T13:00:00",
+    "end": "2018-08-21T14:00:00",
+    "title": "mvaen install ignore failure test    mvn install -DskipTests   or  mvn install -Dmaven.test.skip=true or    <groupId>org.apache.maven.plugins</groupId>  <artifactId>maven-surefire-plugin</artifactId>  <version>2.18.1</version> <configuration><skipTests>true</skipTests>"
+  },
+  {
+    "id": "2018-08-21 15:12:37",
+    "start": "2018-08-21T14:00:00",
+    "end": "2018-08-21T14:15:00",
+    "title": "git init"
+  },
+  {
+    "id": "2018-08-21 15:12:55",
+    "start": "2018-08-21T14:15:00",
+    "end": "2018-08-21T14:30:00",
+    "title": "git remote rm origin"
+  },
+  {
+    "id": "2018-08-21 15:14:26",
+    "start": "2018-08-21T14:30:00",
+    "end": "2018-08-21T14:45:00",
+    "title": "git remote add origin url(https://github.com/nevinsj/slickGridSrc.git)"
+  },
+  {
+    "id": "2018-08-21 15:14:59",
+    "start": "2018-08-21T14:45:00",
+    "end": "2018-08-21T15:00:00",
+    "title": "env GIT_SSL_NO_VERIFY=true git push origin master"
   }
 ]
